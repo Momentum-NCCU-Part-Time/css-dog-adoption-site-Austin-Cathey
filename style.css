@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
+.head {
+    background-color: #004175; 
+    width: device-width;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+body {
+    margin: 0;
+}
+
+.title {
+    
+   padding-left: 1rem;
+   color:aliceblue; 
+   font-family: "Oswald"; 
+ 
+}
+
+.nav { 
+    padding-top: 2rem; 
+    padding-right: .5rem;
+    font-family: "Oswald";
+}
+
+.nav-link {
+    color:aliceblue;
+    
+}
+
+.home-text {
+    padding-left: 100px;
+    padding-right: 100px; 
+    font-family: "Open Sans";
+}
+
+footer {
+display: flex;
+height: 13rem;
+}
+
+.donate {
+    background: linear-gradient(rgba(85, 85, 240, 0.5),
+    rgba(85, 85, 240, 0.5)), 
+    url(images/donate.jpg)
+    
+}
+
+.volunteer {
+    background: linear-gradient(rgba(85, 85, 240, 0.5),
+    rgba(85, 85, 240, 0.5)), 
+    url(images/volunteer.jpg)
+}
+
+.location {
+    background: linear-gradient(rgba(85, 85, 240, 0.5),
+    rgba(85, 85, 240, 0.5)), 
+    url(images/location.png)
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 33.4%;
+    background-size: cover;
+    background-position: center;
+    font-size: 2rem;
+    font-family: "Oswald";
+}
+
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+    
+}
