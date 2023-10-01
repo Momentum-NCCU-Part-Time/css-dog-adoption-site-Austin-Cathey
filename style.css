@@ -32,10 +32,19 @@ body {
     
 }
 
+.dog-hero {
+    width: 100%;
+}
+
 .home-text {
-    padding-left: 100px;
-    padding-right: 100px; 
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%; 
     font-family: "Open Sans";
+    /* display: flex;
+    justify-content: center; */
+    position: relative;
+    text-align: center;
 }
 
 footer {
@@ -78,5 +87,5 @@ footer a {
     text-decoration: none;
     color: aliceblue;
     position: relative;
-    
+
 }
