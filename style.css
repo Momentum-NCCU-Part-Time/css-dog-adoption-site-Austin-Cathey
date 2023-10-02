@@ -89,3 +89,22 @@ footer a {
     position: relative;
 
 }
+
+.dogs{
+    border: solid 1px gray;
+   width: fit-content;
+}
+
+.dog-pic {
+    margin: .5rem;
+}
+
+.dog-name {
+    margin-top: 0;
+    margin-left: .5rem;
+}
+
+.traits {
+
+}
+
