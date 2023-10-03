@@ -95,6 +95,8 @@ footer a {
    width:min-content;
    display: inline-block;
    vertical-align: top;
+   padding-bottom: 1rem;
+   margin: .5rem;
    
 }
 
