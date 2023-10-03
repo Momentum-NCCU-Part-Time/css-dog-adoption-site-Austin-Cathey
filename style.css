@@ -94,8 +94,6 @@ footer a {
     margin-right: 5%;
     margin-left: 5%;
     margin-bottom: 2rem;
-   
-   
 }
 .dogs{
     border: solid 1px gray;
@@ -104,8 +102,6 @@ footer a {
    vertical-align: top;
    padding-bottom: 1rem;
    margin: .5rem;
-   
-    
 }
 
 .dog-pic {
@@ -129,6 +125,11 @@ footer a {
 
 .contact {
 margin-left: 3rem;
+font-family: "Open Sans";
+}
+
+.cinfo {
+    margin: none;
 }
 
 
