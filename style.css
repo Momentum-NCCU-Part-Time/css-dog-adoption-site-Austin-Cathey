@@ -92,7 +92,10 @@ footer a {
 
 .dogs{
     border: solid 1px gray;
-   width: fit-content;
+   width:min-content;
+   display: inline-block;
+   vertical-align: top;
+   
 }
 
 .dog-pic {
@@ -105,6 +108,12 @@ footer a {
 }
 
 .traits {
-
+    border: none;
+    background-color: #89DEEF;
+    padding: .5rem;
+    margin: .25rem;
+    font-size: medium;
+    display: inline-block;
+    border-radius: 12px;
 }
 
