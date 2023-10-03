@@ -89,15 +89,23 @@ footer a {
     position: relative;
 
 }
-
+#the-dogs {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2rem;
+   
+   
+}
 .dogs{
     border: solid 1px gray;
    width:min-content;
-   display: inline-block;
+   display: inline-block; 
    vertical-align: top;
    padding-bottom: 1rem;
    margin: .5rem;
    
+    
 }
 
 .dog-pic {
@@ -118,4 +126,9 @@ footer a {
     display: inline-block;
     border-radius: 12px;
 }
+
+.contact {
+margin-left: 3rem;
+}
+
 
