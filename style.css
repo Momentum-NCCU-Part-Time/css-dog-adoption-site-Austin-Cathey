@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
 
 .head {
@@ -26,16 +27,12 @@ body {
     padding-top: 2rem; 
     padding-right: 1rem;
     font-family: "Oswald";
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .nav-link {
     color:aliceblue;
     padding-left: .5rem;
-    
-}
-
-a:link {
     text-decoration: none;
 }
 
@@ -96,11 +93,22 @@ footer a {
     position: relative;
 
 }
+#adopt-body {
+margin-left: 3rem;
+margin-right 3rem;
+
+}
+
 #the-dogs {
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
+    width:devide-width;
+    margin-right: none;
+    margin-left: none;
+    padding-left: 0;
+    padding-right: 0;
     margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
 }
 .dogs{
     border: solid 1px gray;
@@ -125,6 +133,7 @@ footer a {
     background-color: #89DEEF;
     padding: .5rem;
     margin: .25rem;
+    margin-left: 1rem;
     font-size: medium;
     display: inline-block;
     border-radius: 12px;
@@ -133,10 +142,14 @@ footer a {
 .contact {
 margin-left: 3rem;
 font-family: "Open Sans";
+margin-bottom: 5rem;
 }
 
 .cinfo {
     margin: none;
+    font-style: italic;
+    padding: none;
+    line-height: 0.4;
 }
 
 

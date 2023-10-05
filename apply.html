@@ -4,13 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apply for Adoption</title>
     <link rel="stylesheet" href="style.css" />
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="adopt.html">Adopt</a>
-      <a href="contact.html">Contact</a>
-    </nav>
   </head>
   <body>
+    <header class="head">
+      <div class="title"><h1>Happy Valley Dog Adoption</h1></div>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="adopt.html" class="nav-link link-with-hover">Adopt</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+    </header>
     <h1>Apply for Adopion</h1>
     <form action="" method="get" class="form-example">
       <div class="form-example">
@@ -37,15 +40,15 @@
       </div>
     </form>
     <footer>
-      <!--Use CSS to position all side-by-side-->
-      <p>
-        <img src="images/donate.jpg" alt="giving hands" />
-        <a href="donate.html"><figcaption>Donate</figcaption></a>
-        <img src="images/volunteer.jpg" alt="helping" />
-        <a href="volunteer.html"><figcaption>Volunteer</figcaption></a>
-        <img src="images/location.png" alt="map" />
-        <a href="locaton.html"><figcaption>Location</figcaption></a>
-      </p>
+      <div class="text donate">
+        <a href="donate.html" title="giving hands">Donate</a>
+      </div>
+      <div class="text volunteer">
+        <a href="volunteer.html" title="helping">Volunteer</a>
+      </div>
+      <div class="text location">
+        <a href="locaton.html" title="map">Location</a>
+      </div>
     </footer>
   </body>
 </html>
