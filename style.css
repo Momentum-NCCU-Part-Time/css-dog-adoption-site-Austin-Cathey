@@ -6,7 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    font-family: "Oswald";
 }
 
 body {
@@ -17,19 +17,26 @@ body {
     
    padding-left: 1rem;
    color:aliceblue; 
-   font-family: "Oswald"; 
+   font-family: "Oswald";
+    
  
 }
 
 .nav { 
     padding-top: 2rem; 
-    padding-right: .5rem;
+    padding-right: 1rem;
     font-family: "Oswald";
+    font-weight: 700;
 }
 
 .nav-link {
     color:aliceblue;
+    padding-left: .5rem;
     
+}
+
+a:link {
+    text-decoration: none;
 }
 
 .dog-hero {
@@ -48,8 +55,8 @@ body {
 }
 
 footer {
-display: flex;
-height: 13rem;
+    display: flex;
+    height: 13rem;
 }
 
 .donate {
